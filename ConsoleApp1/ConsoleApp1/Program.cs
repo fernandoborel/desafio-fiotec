@@ -10,8 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Dados atualizados: ");
             var dados = new Dados();
             dados.CarregarDados();
+            Console.WriteLine("Aperte 'ENTER' para sair.");
             Console.ReadLine();
         }
     }
