@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6ED48E6C-832F-47F9-BAD6-CB87CB6A57FA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContentEmail.cs" />
+    <Compile Include="Dados.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sql.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="..\..\..\Mensagens v02\COMPLETED - Non-Critical Comissionamento do sistema de incêndio  Commissioning the fire system at the RJ2 IBX 5-185900787972.txt">
+      <Link>mensagem\Mensagens v02\COMPLETED - Non-Critical Comissionamento do sistema de incêndio  Commissioning the fire system at the RJ2 IBX 5-185900787972.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\Comunicado MXM - Problema de emissão de Nota Fiscal - NT 2018.005.txt">
+      <Link>mensagem\Mensagens v02\Comunicado MXM - Problema de emissão de Nota Fiscal - NT 2018.005.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo1.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo1.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo10.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo10.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo11.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo11.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo12.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo12.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo13.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo13.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo14.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo14.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo15.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo15.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo16.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo16.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo17.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo17.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo18.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo18.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo19.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo19.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo2.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo2.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo20.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo20.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo21.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo21.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo22.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo22.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo23.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo23.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo24.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo24.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo25.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo25.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo26.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo26.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo27.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo27.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo28.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo28.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo29.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo29.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo3.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo3.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo30.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo30.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo31.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo31.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo32.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo32.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo33.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo33.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo34.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo34.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo35.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo35.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo36.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo36.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo37.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo37.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo38.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo38.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo39.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo39.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo4.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo4.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo40.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo40.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo41.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo41.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo42.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo42.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo43.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo43.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo44.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo44.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo45.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo45.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo5.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo5.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo6.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo6.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo7.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo7.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo8.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo8.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Evento Informativo9.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Evento Informativo9.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\EQUINIX Serviço em alarme.txt">
+      <Link>mensagem\Mensagens v02\EQUINIX Serviço em alarme.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\Informações sobre a Nota Técnica 2018.005 v 1.30.txt">
+      <Link>mensagem\Mensagens v02\Informações sobre a Nota Técnica 2018.005 v 1.30.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\Latest News from Freedcamp.txt">
+      <Link>mensagem\Mensagens v02\Latest News from Freedcamp.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\NUVEM E COLOCATION JÁ ESTÃO ENTRE AS INDÚSTRIAS MAIS CRÍTICAS DO MUNDO.txt">
+      <Link>mensagem\Mensagens v02\NUVEM E COLOCATION JÁ ESTÃO ENTRE AS INDÚSTRIAS MAIS CRÍTICAS DO MUNDO.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\Obtenha o Microsoft Teams agora disponível em uma versão gratuita.txt">
+      <Link>mensagem\Mensagens v02\Obtenha o Microsoft Teams agora disponível em uma versão gratuita.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\Prevenção a Fraudes Corporativas - Técnicas Eficazes.txt">
+      <Link>mensagem\Mensagens v02\Prevenção a Fraudes Corporativas - Técnicas Eficazes.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\REMINDER - Non-Critical Comissionamento do sistema de incêndio  Commissioning the fire system at the RJ2 IBX 5-185900787972.txt">
+      <Link>mensagem\Mensagens v02\REMINDER - Non-Critical Comissionamento do sistema de incêndio  Commissioning the fire system at the RJ2 IBX 5-185900787972.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\RES  ERRATA FIOTEC - Validação de politica de backup.txt">
+      <Link>mensagem\Mensagens v02\RES  ERRATA FIOTEC - Validação de politica de backup.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\RJ  Imersão em Excel.txt">
+      <Link>mensagem\Mensagens v02\RJ  Imersão em Excel.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Mensagens v02\UPDATE - RJ2 INCIDENT NOTIFICATION - 5-186034104707.txt">
+      <Link>mensagem\Mensagens v02\UPDATE - RJ2 INCIDENT NOTIFICATION - 5-186034104707.txt</Link>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
