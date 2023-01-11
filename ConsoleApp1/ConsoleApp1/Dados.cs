@@ -28,7 +28,7 @@ namespace ConsoleApp1
                 DATAEMAIL = text[1];
                 DESTINATARIO = text[2];
                 NOME = text[3];
-                CONTEUDO = text.ToString();
+                CONTEUDO = (text).ToString();
 
                 var dados = new ContentEmail();
                 dados.REMETENTE = REMETENTE;
